@@ -1,8 +1,8 @@
-name: 'dv2'
+name: 'postgres'
 version: '1.0.0'
 
 # This setting configures which "profile" dbt uses for this project.
-profile: 'dv2'
+profile: 'postgres'
 
 
 model-paths: ["models"]
