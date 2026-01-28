@@ -1,0 +1,37 @@
+dv2:
+  outputs:
+    dev:
+      dbname: dv
+      host: localhost
+      pass: postgres
+      port: 5432
+      schema: landing_zone
+      threads: 1
+      type: postgres
+      user: postgres
+  target: dev
+ibmdb2:
+  outputs:
+    dev:
+      database: test
+      extra_connect_opts: null
+      host: 20.240.202.64
+      password: scheufler.it
+      port: 50000
+      protocol: TCPIP
+      schema: DV
+      type: ibmdb2
+      user: staging
+  target: dev
+postgres:
+  outputs:
+    dev:
+      dbname: dv
+      host: 20.240.202.64
+      pass: postgres
+      port: 5432
+      schema: landing_zone
+      threads: 1
+      type: postgres
+      user: postgres
+  target: dev
